@@ -26,8 +26,6 @@ const AdminEdit = ({ status }) => {
     }
 
 
-    
-
     let updateHandler = async(data)=>{
         setIsLoading(true)
         let res = await dispatch(updateAdmin(data))
